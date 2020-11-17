@@ -1,6 +1,6 @@
 export class Config {
   mongodbURI: string = "mongodb://shoeAdmin:ZrvtqCDCKWF4829@35.184.211.242:27017/shoeSystem";
-  port: number = 3001;
+  port: number = 8080;
   msg91authKey: string = "283313AMizXlXLsTJ5d19a5fb";
   paymentHtml =
     "<!DOCTYPE html>\
