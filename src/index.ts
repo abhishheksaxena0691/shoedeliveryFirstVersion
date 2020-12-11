@@ -160,6 +160,7 @@ if (app.get("env") === "development") {
     res.status(err.status || 500);
     logger.debug("serving error page - " + err);
     //logger.debug(util.inspect(req, {showHidden: false}));
+    console.log(err);
     res.render("error", {
       message: err.message,
       error: err
